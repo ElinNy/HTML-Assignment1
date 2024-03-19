@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmåSockor- Kontakt</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!--Start på header-->
+    <header>
+      <strong>
+        <a id="SmåSockor" href="home.html">SmåSockor</a>
+      </strong>
+      <nav>
+        <ul>
+          <li class="meny">
+            <a href="home.html">Hem</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="about.html">Om Oss</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="blog.html">Blogg</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <strong>
+              <a href="contact.html">Kontakt</a>
+            </strong>
+          </li>
+        </ul>
+      </nav>
+      <figure id="banner">
+        <img
+          id="bannerPic"
+          src="images/banner4.jpg"
+          alt="Bilder på olika garn i en låda"
+        />
+      </figure>
+      <figure id="containerBL">
+        <img
+          id="bannerLogo"
+          src="/images/yarn.png"
+          alt="en tecknad logga på ett garn"
+        />
+      </figure>
+      <!--Slut på header-->
+    </header>
+    <!--Här har jag lagt ett formulär-->
+    <form>
+      <!--Jag har placerat ett fieldset i form för jag vill ha en ram kring formuläret-->
+      <fieldset>
+        <!--Jag har lagt in legend för jag vill att texten ska ligga i ramen.-->
+        <legend>Kontakta Oss!</legend>
+        <!--Jag har lagt in två h2 i formuläret som jag gett klass-->
+        <h2 class="hContact">Namn</h2>
+        <!--Lagt in en input där besökaren ska skriva in sitt namn-->
+        <input type="text" value="Skriv ditt namn" />
+        <h2 class="hContact">Meddelande</h2>
+        <!--Här ligger en textruta som besökaren ska skriva sitt meddelande-->
+        <textarea>Lämna ett meddelande här!</textarea>
+        <!--Här ligger en knapp som ska skicka iväg meddelandet-->
+        <button>skicka</button>
+      </fieldset>
+      <!--Slut på formulär-->
+    </form>
+    <!--Start på footer-->
+    <footer>
+      <hr />
+      <p id="footerP">
+        Produkter tillverkade av SmåSockorsAB.
+        <br /><!--Här har jag valt att lägga en breakline -->
+        &copy;Elin NY
+      </p>
+      <!--Slut på footer-->
+    </footer>
+  </body>
+</html>

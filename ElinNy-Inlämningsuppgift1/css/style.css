@@ -1,0 +1,195 @@
+/*Jag har sorterat css-filen så att selektorerna är i ordning så som i html-dokumenetet och jag har delat upp vanliga html-element, klass och id.
+Så här startar jag med vanliga html element*/
+body {
+  background-color: rgba(255, 235, 205, 0.882);
+  font-family: monospace;
+  color: rgb(83, 27, 1);
+}
+header {
+  height: 250px;
+  margin: 0px 0px 20px 0px;
+}
+a {
+  text-decoration: none;
+  color: rgb(239, 226, 204);
+  font-size: 20px;
+}
+nav {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+span {
+  color: blanchedalmond;
+}
+p {
+  font-size: 15px;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+}
+aside {
+  text-align: center;
+  text-decoration: underline;
+  width: 120px;
+  float: right;
+  border: 1px solid rgb(224, 100, 42);
+}
+fieldset {
+  width: 30%;
+  height: 230px;
+  margin: auto;
+  border: 2px dashed rgb(224, 100, 42);
+  font-size: large;
+  color: rgb(83, 27, 1);
+}
+form {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-family: monospace;
+  background-color: rgba(224, 100, 42, 0.093);
+  border: 1px solid rgb(83, 27, 1);
+  color: rgb(83, 27, 1);
+  border-radius: 20%;
+}
+textarea {
+  background-color: rgba(224, 100, 42, 0.093);
+  color: rgb(83, 27, 1);
+  border: 1px solid rgb(83, 27, 1);
+  border-radius: 20%;
+  text-align: center;
+}
+input {
+  background-color: rgba(224, 100, 42, 0.093);
+  color: rgb(83, 27, 1);
+  border: 1px solid rgb(83, 27, 1);
+  border-radius: 20%;
+  text-align: center;
+}
+hr {
+  border-color: rgb(224, 100, 42);
+  border-style: dashed;
+}
+footer {
+  width: 100%;
+  margin-top: 100px; /*Vill få ner footern mot botten, så har därför använt mycket px.*/
+  text-align: center;
+  clear: both;
+}
+/*Här har jag lagt mina klasser jag använder*/
+.meny {
+  list-style: none;
+  float: left;
+}
+.catTagUl {
+  list-style: none;
+  padding: 0%;
+}
+.commentClass {
+  color: rgb(83, 27, 1);
+}
+.catTag {
+  color: rgb(83, 27, 1);
+  font-size: medium;
+  text-decoration: underline;
+  line-height: 2;
+}
+.hContact {
+  font-weight: normal;
+  font-size: 15px;
+}
+/*Här har jag lagt mina id jag använder*/
+#SmåSockor {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  color: rgb(239, 226, 204);
+  font-size: 40px;
+}
+#bannerPic {
+  width: 100%;
+  height: 250px;
+}
+#banner {
+  margin: 0px;
+}
+#containerBL {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgba(255, 235, 205, 0.626);
+  border: 2px solid rgb(83, 27, 1);
+  position: absolute;
+  top: 30px;
+  right: 30%;
+  left: 30%;
+}
+#bannerLogo {
+  width: 300px;
+  position: absolute;
+  left: 25%;
+}
+#homeSection {
+  width: 60%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: justify;
+}
+#homePic {
+  margin: 30px;
+  float: left;
+}
+#picHome {
+  width: 350px;
+  margin-top: 30px;
+  border: 2px solid rgb(224, 100, 42);
+}
+#aboutSection {
+  width: 60%;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+#picAbout {
+  width: 350px;
+  margin-top: 20px;
+  border: 2px solid rgb(224, 100, 42);
+}
+#aboutPic {
+  margin: 0px;
+  float: left;
+}
+#blogComment {
+  clear: left;
+  /*la denna för att få kommenarerna att falla ner under bilden.*/
+}
+#picBlog {
+  width: 250px;
+  border: 2px solid rgb(224, 100, 42);
+}
+#blogPic {
+  margin: 0px;
+  float: left;
+}
+#blogArticle {
+  width: 60%;
+  text-align: justify;
+}
+#blogP {
+  float: left;
+  width: 60%;
+  margin-left: 20px;
+}
+#footerP {
+  font-size: small;
+}

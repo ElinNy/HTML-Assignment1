@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmåSockor- Om oss</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!--Min header ser exakt likadan ut.
+    Jag har ändrat placering på strongtaggen i menylistan till den aktiva html-sidan-->
+    <header>
+      <strong>
+        <a id="SmåSockor" href="home.html">SmåSockor</a>
+      </strong>
+      <nav>
+        <ul>
+          <li class="meny">
+            <a href="home.html">Hem</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <strong>
+              <a href="about.html">Om Oss</a>
+            </strong>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="blog.html">Blogg</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <figure id="banner">
+        <img id="bannerPic" src="images/banner2.jpg" alt="Bild på en bräda" />
+      </figure>
+      <figure id="containerBL">
+        <img
+          id="bannerLogo"
+          src="/images/yarn.png"
+          alt="en tecknad logga på ett garn"
+        />
+      </figure>
+      <!--Slut på header-->
+    </header>
+    <!--Placerade min bild här på "om oss"-sidan.
+    För att placera bilden till vänster om texten med hjälp av float.
+    Gett figure och img ett id för att ändra margin och placering. -->
+    <figure id="aboutPic">
+      <img
+        id="picAbout"
+        src="images/sock2.jpg"
+        alt="Bild på ett par stickade strumpor"
+      />
+      <!--Här har jag lagt en figcaption för att ge information om en kollektion-->
+      <figcaption>Från vår senaste kollektion.</figcaption>
+    </figure>
+    <!--Här börjar min section. Gett den ett id för att placera texten efter bilden.-->
+    <section id="aboutSection">
+      <!--Har valt en underrubrik här-->
+      <h2>Om Oss!</h2>
+      <!--lite info om företaget och alpackor-->
+      <p>
+        Att skapa ett par stickade strumpor är en konst i sig. Det kräver
+        tålamod, skicklighet och engagemang. När du har dina ekologiska
+        alpackaull strumpor, kan du vara säker på att vi lagt kärlek och omsorg
+        i att skapa skräddarsydda strumpor till dig och ge dig den värmen vi
+        alla fötjänar.
+      </p>
+      <p>
+        Våra alpackor bor hemma på vår gård och har stora hagar och fina skydd
+        mot väder och vind. <br />
+        Alpackor är exotiska djur som ursprungligen kommer från Sydamerika och
+        är kända för sin mjuka och lyxiga ull. När det gäller att skapa
+        hemmagjorda strumpor av alpackaull är det vårt ansvar att se till att
+        djuren hålls i en hälsosam och humana miljöer. Detta inkluderar rätt
+        utfodring, skydd mot extrema väderförhållanden och regelbunden vård av
+        alpackornas ull.
+      </p>
+      <p>
+        Sammanfattningsvis spelar vårt företag och gård en avgörande roll i att
+        främja både alpacka-djurhållning och produktionen av hemmagjorda
+        strumpor av alpackaull. Genom att prioritera djurs välfärd, hållbarhet
+        och kvalitet, skapar vi produkter som inte bara är vackra och
+        funktionella, utan också bär på en känsla av omsorg och engagemang för
+        både djur och miljön.
+      </p>
+      <!--Här slutar min section-->
+    </section>
+    <!--footern är exakt likadan på alla sidor-->
+    <footer>
+      <hr />
+      <p id="footerP">
+        Produkter tillverkade av SmåSockorsAB.
+        <br /><!--Här har jag valt att lägga en breakline -->
+        &copy;Elin NY
+      </p>
+      <!--Här slutar min footer-->
+    </footer>
+  </body>
+</html>

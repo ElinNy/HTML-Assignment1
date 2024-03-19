@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmåSockor</title>
+    <!--Här har jag länkat min css-fil-->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!--Här börjar min header-->
+    <header>
+      <!--Här är sidans namn som jag har länkat till "hem" -->
+      <strong>
+        <a id="SmåSockor" href="/inlämningsuppgift1/home.html">SmåSockor</a>
+      </strong>
+      <!--Här är min navigeringsmeny som jag placerat en osorteradlista i.-->
+      <nav>
+        <ul>
+          <!--Här har jag lagt klasser till mina list items för att placera innehållet i min meny vågrätt-->
+          <li class="meny">
+            <!--Jag har lagt in en strongtagg för att göra den aktiva länken i fetstil-->
+            <strong>
+              <a href="home.html">Hem</a>
+            </strong>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="about.html">Om Oss</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="blog.html">Blogg</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+        <!--Här avslutas min nav.-->
+      </nav>
+      <!--I denna figure har jag placerat min omslagsbild.-->
+      <!--Jag har gett figure ett id för att ta bort marginaler i css-->
+      <figure id="banner">
+        <!--Jag har gett bilden ett id för att kunna bestämma bredd och höjd-->
+        <img
+          id="bannerPic"
+          src="images/banner1.jpg"
+          alt="Bild på garn i olika färger."
+        />
+      </figure>
+      <!--Här är min behållare som jag har lagt en logga i och stylat. 
+        I den har jag lagt in en urskuren bild som logga-->
+      <figure id="containerBL">
+        <img
+          id="bannerLogo"
+          src="/images/yarn.png"
+          alt="en tecknad logga på ett garn"
+        />
+      </figure>
+    </header>
+    <!--Här slutar min header-->
+    <!--Jag har lagt presentationssidan i en section-->
+    <section id="homeSection">
+      <!--Min huvudrubrik-->
+      <h1>Välkommna till SmåSockor!</h1>
+      <!--Underrubrik-->
+      <h2>Värmen och hållbarheten som alpackaull ger &hearts;</h2>
+      <!--Lite beskrivande paragrafer-->
+      <p>
+        När det gäller att hålla fötterna varma och bekväma under kalla
+        vintermånader finns det få saker som kan mäta sig med hemmagjorda
+        stickade strumpor. När dessa strumpor dessutom är tillverkade av
+        ekologiskt alpackaull, tar vi komfort och hållbarhet till en helt ny
+        nivå.
+      </p>
+      <p>
+        Alpackaullen, som kommer från de sydamerikanska alpackorna, är känd för
+        sin överlägsna mjukhet och värmeisolering. Den är dessutom ett utmärkt
+        val för de som värdesätter hållbarhet och miljömedvetenhet. Alpackor
+        skördas försiktigt och ullproduktionen är i allmänhet mindre skadlig för
+        miljön än tillverkningen av andra typer av ull.
+      </p>
+      <p>
+        Det som verkligen gör hemmagjorda stickade strumpor av ekologiskt
+        alpackaull till en ännu mer eftertraktad produkt är den personliga
+        touchen som går in i deras tillverkning. Många människor har ärvda
+        traditioner för stickning och virkning från sina förfäder, och när de
+        skapar strumpor för hand, införlivar de ofta kärlek och omsorg i varje
+        stygn.
+      </p>
+      <!--Här slutar min section-->
+    </section>
+    <!--Här har jag placerat min bild på första sidan som jag placerat höger om texten-->
+    <figure id="homePic">
+      <img id="picHome" src="images/sock1.jpg" alt="Ett par randiga sockar." />
+    </figure>
+    <!--Här börjar min footer-->
+    <footer>
+      <!--Här har jag lagt en heldragen linje-->
+      <hr />
+      <!--Jag har gett p ett id så jag kan ändra storleken på texten-->
+      <p id="footerP">
+        Produkter tillverkade av SmåSockorsAB.
+        <br /><!--Här har jag valt att lägga en breakline -->
+        &copy;Elin NY
+      </p>
+    </footer>
+    <!--Här slutar min footer-->
+  </body>
+</html>

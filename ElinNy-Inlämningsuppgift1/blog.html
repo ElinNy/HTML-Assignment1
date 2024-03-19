@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmåSockor- Blogg</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!--start på header-->
+    <header>
+      <strong>
+        <a id="SmåSockor" href="home.html">SmåSockor</a>
+      </strong>
+      <nav>
+        <ul>
+          <li class="meny">
+            <a href="home.html">Hem</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="about.html">Om Oss</a>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <strong>
+              <a href="blog.html">Blogg</a>
+            </strong>
+            <span class="nav">&#124;</span>
+          </li>
+          <li class="meny">
+            <a href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <figure id="banner">
+        <img
+          id="bannerPic"
+          src="images/banner3.jpg"
+          alt="Bild på garn och virknålar"
+        />
+      </figure>
+      <figure id="containerBL">
+        <img
+          id="bannerLogo"
+          src="/images/yarn.png"
+          alt="en tecknad logga på ett garn"
+        />
+      </figure>
+      <!--slut på header-->
+    </header>
+    <!--Jag la min aside här för annars fick jag inte den att lägga sig till höger. 
+    I den har jag lagt två osorterade listor med tomma länkar i sig -->
+    <aside>
+      <h3>Kategori</h3>
+      <ul class="catTagUl">
+        <li><a class="catTag" href="#">Stickning</a></li>
+        <li><a class="catTag" href="#">Gård Nyheter</a></li>
+        <li><a class="catTag" href="#">Ny kollektion</a></li>
+      </ul>
+      <h3>Taggar</h3>
+      <ul class="catTagUl">
+        <li><a class="catTag" href="#">Alpackaull</a></li>
+        <li><a class="catTag" href="#">Varma Strumpor</a></li>
+        <li><a class="catTag" href="#">Hemmagjord</a></li>
+      </ul>
+    </aside>
+    <!--Här har jag lagt en article för ett blogginlägg kan användas om på flera sidor-->
+    <article id="blogArticle">
+      <h2>Sticknings Blogg!</h2>
+      <h3>Hur man stickar enkla strumpor</h3>
+      <!--I article har jag placerat en bild till blogginlägget-->
+      <figure id="blogPic">
+        <img
+          id="picBlog"
+          src="images/sock3.jpg"
+          alt="Bild på ett par stickade strumpor"
+        />
+      </figure>
+      <!--Text till själva blogginlägget-->
+      <p id="blogP">
+        Lär dig att Sticka: En Nybörjarguide Stickning är en av de mest
+        avkopplande och kreativa hobbyer du kan ta upp. Det är en färdighet som
+        kan ge dig möjlighet att skapa allt från vackra sjalar till mysiga
+        tröjor och hemmagjorda strumpor. Om du är nybörjare inom stickning, följ
+        dessa grundläggande steg för att komma igång:
+      </p>
+      <!--slut på article-->
+    </article>
+    <!--Under blogginlägger har jag lagt in en div med spans.
+    Det ska agera som kommentarer och ge information om författare och datum-->
+    <div id="blogComment">
+      <span class="commentClass">4 kommentarer -</span>
+      <span class="commentClass">Elin Ny -</span>
+      <span class="commentClass">2023-09-10</span>
+    </div>
+    <!--Start på footer-->
+    <footer>
+      <hr />
+      <p id="footerP">
+        Produkter tillverkade av SmåSockorsAB.
+        <br /><!--Här har jag valt att lägga en breakline -->
+        &copy;Elin NY
+      </p>
+      <!--Slut på footer-->
+    </footer>
+  </body>
+</html>
